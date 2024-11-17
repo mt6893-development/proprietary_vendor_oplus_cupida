@@ -36,10 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@2.0.so \
     vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@3.0.so \
     vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@4.0.so \
-    vendor/oplus/cupida/proprietary/odm/lib/gc02m1b_mipi_mono20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/gc02m1b_mipi_mono20817_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib/imx355_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx355_mipi_raw20817_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib/imx615_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx615_mipi_raw20817_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib/imx766_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx766_mipi_raw20817_tuning.so \
     vendor/oplus/cupida/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
     vendor/oplus/cupida/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/oplus/cupida/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
