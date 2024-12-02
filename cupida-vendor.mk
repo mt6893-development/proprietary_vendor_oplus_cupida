@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oplus/cupida
 
 PRODUCT_COPY_FILES += \
-    vendor/oplus/cupida/proprietary/lib/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oplus.hardware.cameraextension@1.0.so \
-    vendor/oplus/cupida/proprietary/lib64/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oplus.hardware.cameraextension@1.0.so \
     vendor/oplus/cupida/proprietary/odm/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service \
     vendor/oplus/cupida/proprietary/odm/etc/audio/smartpa_param/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx.cnt \
     vendor/oplus/cupida/proprietary/odm/etc/audio/smartpa_param/tfa98xx_music.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx_music.bin \
@@ -74,13 +72,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@2.0.so \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@3.0.so \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@4.0.so \
-    vendor/oplus/cupida/proprietary/odm/lib64/gc02m1b_mipi_mono20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/gc02m1b_mipi_mono20817_tuning.so \
     vendor/oplus/cupida/proprietary/odm/lib64/hi846_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/hi846_mipi_raw_20615_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib64/imx355_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx355_mipi_raw20817_tuning.so \
     vendor/oplus/cupida/proprietary/odm/lib64/imx471_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx471_mipi_raw_20615_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib64/imx615_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx615_mipi_raw20817_tuning.so \
     vendor/oplus/cupida/proprietary/odm/lib64/imx682_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx682_mipi_raw_20615_tuning.so \
-    vendor/oplus/cupida/proprietary/odm/lib64/imx766_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx766_mipi_raw20817_tuning.so \
     vendor/oplus/cupida/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
     vendor/oplus/cupida/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/oplus/cupida/proprietary/odm/lib64/libCamera_hi846mipiraw20615_Capture_Preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_hi846mipiraw20615_Capture_Preview.so \
@@ -422,7 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
-    vendor/oplus/cupida/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
@@ -722,5 +715,4 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
-    vendor.oplus.hardware.cammidasservice@1.0 \
     manifest_oplus_cammidasservice

@@ -5,25 +5,6 @@
 soong_namespace {
 }
 
-cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cammidasservice@1.0",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
 prebuilt_etc_xml {
 	name: "manifest_oplus_cammidasservice",
 	owner: "oplus",
