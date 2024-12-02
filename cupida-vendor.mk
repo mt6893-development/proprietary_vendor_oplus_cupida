@@ -31,44 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG.img \
     vendor/oplus/cupida/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oplus/cupida/proprietary/odm/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img \
-    vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@2.0.so \
-    vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@3.0.so \
-    vendor/oplus/cupida/proprietary/odm/lib/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@4.0.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib/libFilterWrapper.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib/libOGLManager.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib/libVDExternal.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib/libWaterMark.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libYTCommon.so:$(TARGET_COPY_OUT_ODM)/lib/libYTCommon.so \
-    vendor/oplus/cupida/proprietary/odm/lib/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib/lib_rectify.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib/libaiseg.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib/libalCFR.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib/libapsexif.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib/libapsjpeg.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib/libapspng.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_ODM)/lib/libcamera_core_hwi.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libchrome.so:$(TARGET_COPY_OUT_ODM)/lib/libchrome.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib/libhyperlapse.so \
-    vendor/oplus/cupida/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
-    vendor/oplus/cupida/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libmindroid-app.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-app.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libmindroid-framework.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-framework.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib/libmpbase.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libmtk-subsys-service.so:$(TARGET_COPY_OUT_ODM)/lib/libmtk-subsys-service.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib/libnp-loader.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libocam_common.so:$(TARGET_COPY_OUT_ODM)/lib/libocam_common.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib/libop-ai-beauty-body-detection.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib/libop-ai-beauty-faceretouch-cn.so \
-    vendor/oplus/cupida/proprietary/odm/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_ODM)/lib/liboplus_platform_hwi.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
-    vendor/oplus/cupida/proprietary/odm/lib/libui_oplus.so:$(TARGET_COPY_OUT_ODM)/lib/libui_oplus.so \
-    vendor/oplus/cupida/proprietary/odm/lib/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@2.0.so \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@3.0.so \
     vendor/oplus/cupida/proprietary/odm/lib64/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@4.0.so \
