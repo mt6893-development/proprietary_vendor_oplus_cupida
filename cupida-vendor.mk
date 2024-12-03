@@ -299,9 +299,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
     vendor/oplus/cupida/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/oplus/cupida/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.1-service \
-    vendor/oplus/cupida/proprietary/vendor/bin/lib3a.ccu.ddr:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.ddr \
-    vendor/oplus/cupida/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
-    vendor/oplus/cupida/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
     vendor/oplus/cupida/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/oplus/cupida/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/oplus/cupida/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
@@ -353,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/cupida/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
-    vendor/oplus/cupida/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
     vendor/oplus/cupida/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
