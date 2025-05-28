@@ -383,6 +383,7 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.1 \
     liblvimfs \
     liblvimfs_wrapper \
+    libstdc++_odm \
     android.hardware.graphics.allocator@2.0_odm \
     android.hardware.graphics.allocator@3.0_odm \
     android.hardware.graphics.allocator@4.0_odm \
